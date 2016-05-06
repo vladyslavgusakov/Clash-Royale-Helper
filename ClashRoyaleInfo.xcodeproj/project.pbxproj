@@ -13,6 +13,8 @@
 		B31345AB1C986F9600C15B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31345A91C986F9600C15B6C /* Main.storyboard */; };
 		B31345AD1C986F9600C15B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31345AC1C986F9600C15B6C /* Assets.xcassets */; };
 		B31345B01C986F9600C15B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B31345AE1C986F9600C15B6C /* LaunchScreen.storyboard */; };
+		B31345B91C9884A100C15B6C /* myDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = B31345B81C9884A100C15B6C /* myDeck.m */; };
+		B31345BC1C98850E00C15B6C /* myCard.m in Sources */ = {isa = PBXBuildFile; fileRef = B31345BB1C98850E00C15B6C /* myCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B31345AC1C986F9600C15B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31345AF1C986F9600C15B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31345B11C986F9600C15B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31345B71C9884A100C15B6C /* myDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myDeck.h; sourceTree = "<group>"; };
+		B31345B81C9884A100C15B6C /* myDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myDeck.m; sourceTree = "<group>"; };
+		B31345BA1C98850E00C15B6C /* myCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myCard.h; sourceTree = "<group>"; };
+		B31345BB1C98850E00C15B6C /* myCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				B31345A41C986F9600C15B6C /* AppDelegate.m */,
 				B31345A61C986F9600C15B6C /* ViewController.h */,
 				B31345A71C986F9600C15B6C /* ViewController.m */,
+				B31345B71C9884A100C15B6C /* myDeck.h */,
+				B31345B81C9884A100C15B6C /* myDeck.m */,
+				B31345BA1C98850E00C15B6C /* myCard.h */,
+				B31345BB1C98850E00C15B6C /* myCard.m */,
 				B31345A91C986F9600C15B6C /* Main.storyboard */,
 				B31345AC1C986F9600C15B6C /* Assets.xcassets */,
 				B31345AE1C986F9600C15B6C /* LaunchScreen.storyboard */,
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B31345B91C9884A100C15B6C /* myDeck.m in Sources */,
 				B31345A81C986F9600C15B6C /* ViewController.m in Sources */,
 				B31345A51C986F9600C15B6C /* AppDelegate.m in Sources */,
 				B31345A21C986F9600C15B6C /* main.m in Sources */,
+				B31345BC1C98850E00C15B6C /* myCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				B31345B61C986F9600C15B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

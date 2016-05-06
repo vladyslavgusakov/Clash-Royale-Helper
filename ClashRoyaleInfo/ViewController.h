@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "myDeck.h"
 
 @interface ViewController : UIViewController
 
